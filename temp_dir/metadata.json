@@ -1,0 +1,5 @@
+{
+  "name": "Client-portal-revamp",
+  "description": "A centralized mortgage client portal for applicants to upload documents, track bank applications, and digitally sign documents.",
+  "requestFramePermissions": []
+}

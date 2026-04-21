@@ -1,0 +1,6 @@
+{
+  "name": "rivo-ms-view",
+  "description": "A simple, clean, minimalist empty home page for Rivo OS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
