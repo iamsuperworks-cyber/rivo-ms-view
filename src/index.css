@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 160 12% 95%;
+    --foreground: 234 33% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 234 33% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 234 33% 14%;
+
+    --primary: 263 67% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 263 85% 96%;
+    --secondary-foreground: 263 67% 50%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 263 85% 96%;
+    --accent-foreground: 263 67% 50%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 263 67% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 9% 46%;
+    --sidebar-primary: 263 67% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 263 85% 96%;
+    --sidebar-accent-foreground: 263 67% 50%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 263 67% 50%;
+
+    /* Rivo-specific tokens */
+    --rivo-success: 142 71% 45%;
+    --rivo-success-bg: 142 76% 94%;
+    --rivo-warning: 38 92% 50%;
+    --rivo-warning-bg: 38 100% 94%;
+    --rivo-info: 205 78% 50%;
+    --rivo-info-bg: 205 85% 94%;
+    --rivo-danger: 0 72% 51%;
+    --rivo-danger-bg: 0 93% 94%;
+    --rivo-purple: 263 67% 50%;
+    --rivo-purple-light: 263 85% 96%;
+    --rivo-navy: 234 33% 14%;
+    --rivo-gray: 220 9% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+}
